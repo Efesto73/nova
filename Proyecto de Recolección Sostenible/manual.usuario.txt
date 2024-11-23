@@ -1,0 +1,81 @@
+Manual Fácil para Iniciar el Proyecto
+Paso 1: Extraer el Proyecto
+Descargar el archivo comprimido: Te lo hemos enviado como un archivo .zip. Haz clic derecho sobre él y selecciona "Descargar".
+
+Extraer los archivos: Haz clic derecho sobre el archivo comprimido descargado y selecciona "Extraer todo...". Esto abrirá una ventana donde podrás elegir una carpeta para extraer los archivos. Haz clic en "Extraer".
+
+Ahora tendrás una carpeta llamada "proyecto-recoleccion".
+
+Paso 2: Instalar Python
+Si no tienes Python en tu computadora, sigue estos pasos para instalarlo:
+
+Ir al sitio web de Python: Abre tu navegador y visita python.org.
+Descargar Python: Haz clic en "Download Python". Asegúrate de elegir la versión que es compatible con tu sistema operativo (Windows, Mac o Linux).
+Instalar Python: Ejecuta el archivo descargado y asegúrate de marcar la opción "Add Python to PATH" antes de hacer clic en "Install Now".
+Paso 3: Preparar las Herramientas
+Ahora, debes instalar un par de programas adicionales para que todo funcione:
+
+Abre la terminal (o línea de comandos):
+
+En Windows: Presiona las teclas Win + R, escribe cmd y presiona Enter.
+En Mac o Linux: Abre la aplicación de Terminal.
+Instalar las dependencias del proyecto:
+
+En la terminal, escribe este comando y presiona Enter:
+
+bash
+Copiar código
+pip install -r requisitos.txt
+Esto descargará los programas que necesita el proyecto.
+
+Paso 4: Iniciar el Proyecto
+Ejecutar el proyecto:
+Si estás en Windows, busca el archivo run.bat dentro de la carpeta "proyecto-recoleccion" y haz doble clic en él. Esto iniciará el proyecto de manera automática.
+
+Si no tienes run.bat o usas otro sistema operativo, abre la terminal (como en el paso 3) y escribe:
+
+bash
+Copiar código
+python app.py
+Luego presiona Enter.
+
+Paso 5: Ver la Aplicación
+Cuando el proyecto se haya iniciado, abre tu navegador y escribe esto en la barra de direcciones:
+
+arduino
+Copiar código
+http://127.0.0.1:5000/
+¡Listo! Ahora podrás ver y usar la aplicación.
+
+Paso 6: Usar la Aplicación
+Registrarse:
+
+Si es la primera vez que usas la aplicación, haz clic en "Registrarse" y llena el formulario con tu nombre de usuario y contraseña.
+Después, podrás iniciar sesión con el nombre de usuario y la contraseña que hayas creado.
+Ver los puntos de recolección:
+
+En la página principal, verás una lista de lugares donde puedes dejar tus residuos reciclables. ¡Así de fácil!
+¿Qué hacer si algo no funciona?
+Si algo no funciona, no te preocupes, solo sigue estos pasos:
+
+Revisa si Python está instalado: Vuelve a la terminal y escribe:
+
+bash
+Copiar código
+python --version
+Si muestra una versión de Python, significa que está instalado correctamente. Si no, instala Python como te expliqué antes.
+
+Verifica las dependencias: Si el comando de instalación falló, asegúrate de que el archivo requisitos.txt esté en la misma carpeta que el proyecto. Si no está, verifica que lo hayas descargado correctamente.
+
+Reinicia la aplicación: Si después de todo aún no ves nada en el navegador, cierra la ventana de la aplicación (puedes hacer clic en la X de la terminal) y vuelve a intentar ejecutar run.bat o python app.py.
+
+¡Listo! 🎉
+¡Ya está! Ahora puedes usar el proyecto de recolección de residuos y ver cómo funciona. Si tienes alguna pregunta o necesitas ayuda, no dudes en pedírmelo. 😊
+
+Resumen Rápido:
+Descarga y extrae el archivo.
+Instala Python.
+Instala las dependencias con pip install -r requisitos.txt.
+Ejecuta el proyecto.
+Abre el navegador y ve a http://127.0.0.1:5000/.
+¡Disfruta del proyecto! 🌎♻️
